@@ -84,8 +84,8 @@ function onWindowResize() {
 function animate() {
     requestAnimationFrame(animate)
 
-    figure1.rotation.x += 0.005
-    figure1.rotation.y += 0.005
+    figure1.rotation.x += 0.002
+    figure1.rotation.y += 0.002
 
     //controls.update()
     TWEEN.update()
