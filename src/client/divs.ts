@@ -12,7 +12,7 @@ LabelDiv.style.cursor = 'pointer';
 LabelDiv.addEventListener('pointerdown', () => {
 	console.log('Element 1 clicked')
 	new TWEEN.Tween(figure1.rotation)
-	.to({ x: -Math.PI / 2, y: 0, z: 0 }, 1000)
+	.to({ x: 0, y: Math.PI*(11 / 18), z: 0 }, 1000)
 	.start()
 	//alert('Element 1 clicked')
 })
@@ -46,7 +46,7 @@ LabelDiv6.style.cursor = 'pointer';
 LabelDiv6.addEventListener('pointerdown', () => {
 	console.log('Element 6 clicked')
 	new TWEEN.Tween(figure1.rotation)
-	.to({ x: 0 , y: Math.PI / 2, z: 0 }, 1000)
+	.to({ x: 0 , y: -Math.PI*(11 / 18), z: 0 }, 1000)
 	.start()
 	//alert('Element 6 clicked')
 })
@@ -61,7 +61,7 @@ LabelDiv7.style.cursor = 'pointer';
 LabelDiv7.addEventListener('pointerdown', () => {
 	console.log('Element 7 clicked')
 	new TWEEN.Tween(figure1.rotation)
-	.to({ x: 0 , y: -Math.PI / 2, z: 0 }, 1000)
+	.to({ x: 0 , y: 0, z: 0 }, 1000)
 	.start()
 	//alert('Element 7 clicked')
 })

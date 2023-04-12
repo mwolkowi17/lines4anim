@@ -65,7 +65,7 @@ labelRenderer.domElement.style.position = 'absolute';
 labelRenderer.domElement.style.top = '0px';
 document.body.appendChild(labelRenderer.domElement);
 
-const controls = new OrbitControls(camera, labelRenderer.domElement)
+//const controls = new OrbitControls(camera, labelRenderer.domElement)
 
 
 // new TWEEN.Tween(figure1.rotation)
@@ -87,7 +87,7 @@ function animate() {
     figure1.rotation.x += 0.005
     figure1.rotation.y += 0.005
 
-    controls.update()
+    //controls.update()
     TWEEN.update()
     render()
 }
